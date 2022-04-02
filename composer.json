@@ -1,0 +1,18 @@
+{
+    "name": "divido/arunk",
+    "description": "Divido sample coding assessment",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Divido\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0"
+    }
+}
